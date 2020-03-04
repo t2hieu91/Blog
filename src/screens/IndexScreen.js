@@ -6,7 +6,7 @@ const IndexScreen = () => {
 	const { data, addBlogPost } = useContext(BlogContext);
 
 	return (
-		<>
+		<View style={styles.container}>
 			<Text>IndexScreen</Text>
 			<Button title="Add Post" onPress={addBlogPost} />
 			<FlatList
@@ -16,10 +16,14 @@ const IndexScreen = () => {
 					return <Text>{item.title}</Text>
 				}}
 			/>
-		</>
+		</View>
 	)
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+	container: {
+		flex: 1,
+	}
+});
 
 export default IndexScreen;
