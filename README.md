@@ -1,2 +1,2 @@
 # Blog
-React native
+React native with Expo
