@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import { StyleSheet, Text, View, FlatList, Button } from 'react-native';
 import BlogContextState from "../context/BlogContextState";
-import { ContextReducer } from "../context/BlogContextReducer";
+import { Context } from "../context/BlogContextReducer";
 
 const IndexScreen = () => {
-	const { state, addBlogPost } = useContext(ContextReducer);
+	const { state, addBlogPost } = useContext(Context);
 
 	return (
 		<View style={styles.container}>
