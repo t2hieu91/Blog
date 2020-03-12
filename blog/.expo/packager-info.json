@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "expoServerNgrokUrl": "https://b3-arz.anonymous.blog.exp.direct",
-  "packagerNgrokUrl": "https://packager.b3-arz.anonymous.blog.exp.direct",
-  "ngrokPid": 45677,
-  "packagerPort": 19001,
-  "packagerPid": 45660
+  "expoServerPort": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
+  "packagerPort": null,
+  "packagerPid": null
 }
